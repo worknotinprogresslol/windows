@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://mirror.clarkson.edu/linuxmint-images/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
